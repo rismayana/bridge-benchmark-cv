@@ -37,3 +37,8 @@ Thumbs.db
 
 # ── Claude Code local settings (mesin spesifik) ──────────────────────
 .claude/settings.local.json
+
+# ── Secrets / API keys ───────────────────────────────────────────────
+*.cfg
+*.key
+*.secret
