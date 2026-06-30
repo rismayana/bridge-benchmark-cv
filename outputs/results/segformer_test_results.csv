@@ -1,0 +1,21 @@
+class,iou,model
+crack,0.0,segformer
+alligator crack,0.0,segformer
+efflorescence,0.0,segformer
+exposed rebars,0.0,segformer
+graffiti,0.0,segformer
+hollowareas,0.0,segformer
+joint tape,0.0,segformer
+restformwork,0.0,segformer
+rockpocket,0.0,segformer
+rust,0.0,segformer
+spalling,0.0,segformer
+washouts/concrete corrosion,0.0,segformer
+weathering,0.0,segformer
+wetspot,0.0,segformer
+cavity,0.0,segformer
+bearing,0.0,segformer
+drainage,0.0,segformer
+expansion joint,0.0,segformer
+protective equipment,0.0,segformer
+MEAN,0.0,segformer

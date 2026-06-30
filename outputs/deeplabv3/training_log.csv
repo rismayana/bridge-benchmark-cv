@@ -1,0 +1,1 @@
+epoch,train_loss,train_ce,train_dice,val_loss,val_miou,lr,time_s

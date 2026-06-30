@@ -1,0 +1,39 @@
+# ── Dataset (terlalu besar untuk git) ──────────────────────────────
+data/
+
+# ── Model checkpoints (ratusan MB) ──────────────────────────────────
+outputs/**/*.pth
+outputs/**/*.pt
+
+# ── WandB local cache ────────────────────────────────────────────────
+wandb/
+outputs/**/wandb/
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Virtual env ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Windows artifacts ────────────────────────────────────────────────
+desktop.ini
+Thumbs.db
+
+# ── Editor / IDE ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Claude Code local settings (mesin spesifik) ──────────────────────
+.claude/settings.local.json
