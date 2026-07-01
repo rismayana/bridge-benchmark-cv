@@ -502,7 +502,10 @@ class Trainer:
         print(f"  Checkpoint      : {self.out_dir / 'best_model.pth'}")
         print(f"{'='*55}\n")
 
-        if self._wandb_on:
-            wandb.finish()
-
         return self.best_miou
+
+    def wandb_finish(self):
+        """Tutup WandB run. Panggil setelah semua evaluasi (test + robustness) selesai."""
+        if self._wandb_on and wandb.run is not None:
+            wandb.finish()
+            print("[WandB] Run selesai.")
